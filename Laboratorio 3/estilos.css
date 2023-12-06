@@ -1,0 +1,37 @@
+.estaciones {
+width: 700px;
+height: 300px;
+border: 3px solid red;
+margin: auto;
+
+background-image: url(Primavera.jpg);
+background-size: 100% 100%;
+
+animation-name: cambiante;
+animation-duration: 12s;
+animation-iteration-count: infinite;
+}
+@keyframes cambiante{
+	0%, 40% {
+		background-image: url(Primavera.jpg);
+	      }
+		41%, 45% { 
+
+		background-image: url(1.jpg);
+	      }
+		46%, 50% { 
+
+		background-image: url(2.jpg);
+	      }
+		51%, 55% { 
+
+		background-image: url(3.jpg);
+	      }
+		56%, 60% { 
+
+		background-image: url(4.jpg);
+	      }
+		61%, 100% {
+		    background-image: url(Verano.jpg);
+	      } 
+}
